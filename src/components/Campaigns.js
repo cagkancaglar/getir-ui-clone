@@ -6,14 +6,14 @@ import Title from "./ui/Title";
 import Banners from "../mock/banners.json";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-function NextBtn({ className, onClick }) {
+function NextBtn({ onClick }) {
   return <button className="!text-brand-color absolute top-1/2 -right-6 -translate-y-1/2" onClick={onClick}>
         <IoIosArrowForward size={20}/>
   </button>;
 }
 
 
-function PrevBtn({ className, onClick }) {
+function PrevBtn({ onClick }) {
   return <button className= "!text-brand-color absolute top-1/2 -left-6 -translate-y-1/2" onClick={onClick}>
     <IoIosArrowBack size={20}/>
   </button>;
