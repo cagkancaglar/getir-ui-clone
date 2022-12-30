@@ -7,8 +7,6 @@ import MobileApp from "./components/MobileApp";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 
-
-
 function App() {
   return (
     <>
@@ -16,9 +14,11 @@ function App() {
       <HeroSection />
       <Categories />
       <Campaigns />
-      <Favorites />
-      <MobileApp />
-      <Cards />
+      <div className="container mx-auto">
+        <Favorites />
+        <MobileApp />
+        <Cards />
+      </div>
       <Footer />
     </>
   );

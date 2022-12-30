@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 
 export default function HeroSection() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1500,
     slidesToShow: 1,
@@ -76,10 +76,10 @@ export default function HeroSection() {
                 selected={selected}
                 onSelect={(code) => setSelected(code)}
               />
-              <label className="flex 1 relative">
+              <label className="flex 1 relative block group cursor-pointer">
                 <input
                   required
-                  className="h-14 px-4 border-2 border-gray-200 rounded w-full transition-colors hover:border-primary-brand-color outline-none focus:border-primary-brand-color peer"
+                  className="h-14 px-4 border-2 border-gray-200 rounded w-full transition-colors group-hover:border-primary-brand-color outline-none focus:border-primary-brand-color peer"
                 />
                 <span className="absolute top-0 left-0 px-4 flex items-center h-full transition-all peer-focus:h-6 peer-focus:text-primary-brand-color peer-focus:text-xs text-sm text-gray-500 peer-valid:h-6 peer-valid:text-primary-brand-color peer-valid:text-xs">
                   Telefon Numarası
