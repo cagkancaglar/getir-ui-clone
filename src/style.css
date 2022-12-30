@@ -670,6 +670,22 @@ html, body{
   margin-bottom: 0.75rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -738,6 +754,11 @@ html, body{
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.transform {
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -766,8 +787,12 @@ html, body{
   justify-content: space-between;
 }
 
-.gap-1 {
-  gap: 0.25rem;
+.gap-0\.1 {
+  gap: 0.063rem;
+}
+
+.gap-0 {
+  gap: 0px;
 }
 
 .gap-x-8 {
@@ -790,6 +815,14 @@ html, body{
 
 .gap-y-1 {
   row-gap: 0.25rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .overflow-hidden {
@@ -855,8 +888,17 @@ html, body{
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.bg-primary-brand-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(93 62 188 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
+}
+
+.bg-mobile-app {
+  background-image: url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png');
 }
 
 .object-cover {
@@ -867,8 +909,16 @@ html, body{
   padding: 1.5rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-4 {
   padding: 1rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .py-8 {
@@ -891,6 +941,10 @@ html, body{
   padding-right: 1rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -905,8 +959,22 @@ html, body{
   line-height: 2.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .tracking-tight {
@@ -1059,6 +1127,13 @@ html, body{
 .before\:to-transparent::before {
   content: var(--tw-content);
   --tw-gradient-to: transparent;
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:border-brand-color:hover {
