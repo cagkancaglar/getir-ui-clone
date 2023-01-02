@@ -1,7 +1,6 @@
 import Menu from "./ui/Menu";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { BsGlobe } from "react-icons/bs";
-import { IoIosArrowDown } from "react-icons/io";
 
 
 export default function Footer() {

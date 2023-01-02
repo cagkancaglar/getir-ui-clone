@@ -710,6 +710,10 @@ html,
   height: 4rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -738,10 +742,6 @@ html,
   height: 1.5rem;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .w-\[150px\] {
   width: 150px;
 }
@@ -760,6 +760,10 @@ html,
 
 .w-6 {
   width: 1.5rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .-translate-y-1\/2 {
@@ -1249,6 +1253,11 @@ html,
   border-color: rgb(76 51 152 / var(--tw-border-opacity));
 }
 
+.hover\:border-primary-brand-color:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(93 62 188 / var(--tw-border-opacity));
+}
+
 .hover\:bg-primary-brand-color:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(93 62 188 / var(--tw-bg-opacity));
@@ -1296,6 +1305,20 @@ html,
   border-color: rgb(93 62 188 / var(--tw-border-opacity));
 }
 
+.group:focus-within .group-focus-within\:h-7 {
+  height: 1.75rem;
+}
+
+.group:focus-within .group-focus-within\:text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.group:focus-within .group-focus-within\:text-purple-600 {
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:border-primary-brand-color {
   --tw-border-opacity: 1;
   border-color: rgb(93 62 188 / var(--tw-border-opacity));
@@ -1310,6 +1333,10 @@ html,
   height: 1.5rem;
 }
 
+.peer:valid ~ .peer-valid\:h-7 {
+  height: 1.75rem;
+}
+
 .peer:valid ~ .peer-valid\:text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1318,6 +1345,11 @@ html,
 .peer:valid ~ .peer-valid\:text-primary-brand-color {
   --tw-text-opacity: 1;
   color: rgb(93 62 188 / var(--tw-text-opacity));
+}
+
+.peer:valid ~ .peer-valid\:text-purple-600 {
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity));
 }
 
 .peer:focus ~ .peer-focus\:h-6 {
