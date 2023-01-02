@@ -14,7 +14,7 @@ useEffect(() =>{
     <div className="bg-white py-4">
         <div className="container mx-auto">
           <Title>Kategoriler</Title>
-          <div className="grid grid-cols-10">
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-10 xl:grid-cols-12">
             {categories && categories.map((category, index) => <Category key={index} category={category} />)}
           </div>
         </div>
